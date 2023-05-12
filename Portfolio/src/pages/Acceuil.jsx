@@ -9,7 +9,7 @@ export default function Acceuil() {
     left:'40%'
   }
   return (
-    <Container>
+    <Container paddingTop={{sm:"100%",md:"80%",lg:"0%"}}  W={{base:"100%",md:"80%",lg:"60%"}}  >
     <Flex p="40px"gap="10px" alignContent="center" position sx={position} >
       <Avatar src="/img/besma.jpg" w="25%" h="25%" >
         <AvatarBadge w="40%" h="40%" bg="teal.400">
