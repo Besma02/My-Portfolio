@@ -5,12 +5,12 @@ import Sidbar from "../Components/Sidbar"
 
 
 
-import ThemeModeContextProvider from "../Contexts/ThemeModeContext"
+
 
 export default function RootLayout() {
   return (
     <div>
-      <ThemeModeContextProvider>
+    
       <Grid templateColumns="repeat(6,1fr)">
         <GridItem as="aside" colSpan={{base:6,md:2,lg:1}} bg="teal.400" minH={{lg:'100vh'}}>
       <Sidbar/>
@@ -23,7 +23,7 @@ export default function RootLayout() {
       </GridItem>
      
       </Grid>
-      </ThemeModeContextProvider>
+    
     </div>
   )
 }

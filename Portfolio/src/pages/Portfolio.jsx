@@ -2,6 +2,7 @@ import {  Tab, TabList, Tabs,TabPanels,TabPanel} from "@chakra-ui/react";
 
 import Compétence from "./ProfilItem/Compétence";
 import Informatique from "./ProfilItem/Informatique";
+import { StageExperience } from "./ProfilItem/StageExperience";
 
 export default function Portfolio() {
   return (
@@ -14,7 +15,9 @@ export default function Portfolio() {
       
     </TabList>
     <TabPanels>
-    <TabPanel></TabPanel>
+    <TabPanel>
+      <StageExperience/>
+    </TabPanel>
     <TabPanel>
       <Compétence/>
     </TabPanel>
