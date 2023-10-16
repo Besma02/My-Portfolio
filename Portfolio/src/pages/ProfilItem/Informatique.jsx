@@ -20,7 +20,7 @@ export default function Informatique() {
       </ListItem>
      
        <ListItem>
-       <Heading  fontSize="20px" color="teal.600" fontWeight="medium"><ListIcon color="teal.400" as={EditIcon}/>Developpement Web :</Heading><Text fontSize="20px">Html,Css,Bootstrap,JavaScript,Jquery,Reactjs,ChakraUI,Php,Msql,sql,Wordpress,JSON server,Github</Text>
+       <Heading  fontSize="20px" color="teal.600" fontWeight="medium"><ListIcon color="teal.400" as={EditIcon}/>Developpement Web :</Heading><Text fontSize="20px">Html,Css,Bootstrap,JavaScript,Jquery,Reactjs,ChakraUI,Php,Msql,sql,Wordpress,JSON server,Github...</Text>
       </ListItem>
       
        </List>

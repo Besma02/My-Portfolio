@@ -6,8 +6,8 @@ import { StageExperience } from "./ProfilItem/StageExperience";
 
 export default function Portfolio() {
   return (
-    <Tabs variant="enclosed" p="40px" >
-    <TabList gap="40px" >
+    <Tabs variant="enclosed" p="40px"  >
+    <TabList gap="5px"  >
       
       <Tab _selected={{color:"white",bg:"teal.400"}}>Stage & Expérience</Tab>
       <Tab _selected={{color:"white",bg:"teal.400"}}>Compétence</Tab> 

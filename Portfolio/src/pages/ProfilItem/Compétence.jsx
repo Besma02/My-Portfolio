@@ -4,9 +4,9 @@ import { List,ListIcon, ListItem, Container, Heading,Flex,Text } from "@chakra-u
 import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
 export default function Compétence() {
   return (
-    <Container bg="gray.100" p="40px" mt="40px"W={{base:"100%",md:"80%",lg:"60%"}}>
-       <List  fontSize="24px" color="gray.600" spacing={5}>
-       <Heading as="h3" textAlign="center" pb="10px" colorScheme="purple.600" >Mes Compétences</Heading> 
+    <Container bg="gray.100" p="40px" mt="40px" w={{base:"100%",md:"80%",lg:"100%"}}>
+       <List  fontSize="24px" color="gray.600" spacing={5}w={{base:"100%",md:"80%",lg:"100%"}}>
+       <Heading as="h3" textAlign="center" pb="10px" colorScheme="purple.600" w={{base:"100%",md:"80%",lg:"100%"}}  >Mes Compétences</Heading> 
        <ListItem>
       <ListIcon color="purple" as={EditIcon}/>Création et désign des sites web
       </ListItem>

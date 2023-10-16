@@ -1,5 +1,5 @@
 
-import { Button, Checkbox, Container, Flex, FormControl, FormLabel, Textarea } from "@chakra-ui/react"
+import { Button, Checkbox, Container, Flex, FormControl, FormLabel, Heading, Textarea } from "@chakra-ui/react"
 import { Form,redirect } from "react-router-dom"
 
 export default function Contact() {
@@ -8,17 +8,18 @@ export default function Contact() {
    
     <Container w="500px" mt="60px" bg="gray.50" p="20px 30px">
     <Form method="post" action="/Contact"  >
+    <Heading>Contact me</Heading>
       <FormControl  mt="20px"  >
         <FormLabel > name:</FormLabel>
         <input type="text"   />
       </FormControl>
       <FormControl  mt="20px">
-        <FormLabel > Email:</FormLabel>
+         <FormLabel > Email:</FormLabel>
         <input  type="email" name='title'  />
       </FormControl>
       <FormControl mt="20px">
         <FormLabel>description</FormLabel>
-        <Textarea placeholder="entrer une description" name='description' bg="white"/>
+        <Textarea placeholder="entrer une description" name='description' bg="white" width={{base:"50%",md:"80%",lg:"100%"}}/>
       </FormControl>
       
       <FormControl >
