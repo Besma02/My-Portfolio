@@ -5,7 +5,7 @@ import { Container,Text,Heading } from "@chakra-ui/react";
 export default function Profil() {
   return (
     
-   <Container bg="gray.100" p="20px"  mt="80px" width={{base:"100%",md:"80%",lg:"100%"}} className='profil' >
+   <Container  p="20px"   mt="80px" width={{base:"100%",md:"80%",lg:"100%"}} className='profil' >
     <Heading as="h3" textAlign="center" pb="10px" fontSize="36px" color="gray.600" width={{base:"100%",md:"80%",lg:"100%"}} >A propos de moi</Heading>
     <Text  w="400px" padding="10px 20px 10px 10px" ligneHeigth="60px"  marginTop="5px" color="gray.600" fontSize="16px " width={{base:"100%",md:"80%",lg:"100%"}}>
       <p>Je m'appelle Besma Harzli, je suis diplomée de

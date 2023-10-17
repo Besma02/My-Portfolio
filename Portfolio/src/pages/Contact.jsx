@@ -6,7 +6,7 @@ export default function Contact() {
  
   return (
    
-    <Container w="500px" mt="60px" bg="gray.50" p="20px 30px">
+    <Container w="500px" mt="60px"  p="20px 30px">
     <Form method="post" action="/Contact"  >
     <Heading>Contact me</Heading>
       <FormControl  mt="20px"  >
